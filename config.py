@@ -20,11 +20,10 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "29483517"))
 API_HASH = environ.get("API_HASH", "e35a05d338376cbcd8162f810aed878d")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7791477566:AAGQAq7iY0m5lv3Bsq4uGlmZC_r3gu7O398")
-
+BOT_TOKEN = environ.get("BOT_TOKEN", "7899773454:AAHvdoUOgzM1CfNyfXSW0qNn3pXQm0I2Nus")
 PICS = (environ.get('PICS', 'https://ibb.co/gM8LxSzs')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5756495153').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "anime_rtxxbot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "anime_rtxxzbot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
@@ -46,7 +45,7 @@ AUTO_DELETE = int(environ.get("AUTO_DELETE", "30")) # Time in Minutes
 AUTO_DELETE_TIME = int(environ.get("AUTO_DELETE_TIME", "1800")) # Time in Seconds
 
 # Channel Information
-LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002334590710"))
+LOG_CHANNEL = int(environ.get("LOG_CHANNEL", "-1002656509343"))
 
 # File Caption Information
 CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION", f"{script.CAPTION}")
