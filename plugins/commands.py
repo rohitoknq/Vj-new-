@@ -62,8 +62,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('💝 sᴜʙsᴄʀɪʙᴇ ᴍʏ ANIME ᴄʜᴀɴɴᴇʟ', url='https://t.me/animepulse_multi')
             ],[
-            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/animepulse_multi'),
-            InlineKeyboardButton('🤖 ANY HELP ', url='https://t.me/clutch008')
+            InlineKeyboardButton('🔍 sᴜᴘᴘᴏʀᴛ ɢʀᴏᴜᴘ', url='https://t.me/koianimes'),
+            InlineKeyboardButton('🤖 ANY HELP ', url='https://t.me/ROHITREDDY69')
             ],[
             InlineKeyboardButton('💁‍♀️ ʜᴇʟᴘ', callback_data='help'),
             InlineKeyboardButton('😊 ᴀʙᴏᴜᴛ', callback_data='about')
