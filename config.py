@@ -20,14 +20,14 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "29483517"))
 API_HASH = environ.get("API_HASH", "e35a05d338376cbcd8162f810aed878d")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7899773454:AAHvdoUOgzM1CfNyfXSW0qNn3pXQm0I2Nus")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7419373030:AAEacMkSxD6isx53Lt7BJ5jKBbl8HLhCiNM")
 PICS = (environ.get('PICS', 'https://ibb.co/gM8LxSzs')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5756495153').split()]
-BOT_USERNAME = environ.get("BOT_USERNAME", "anime_rtxxzbot") # without @
+BOT_USERNAME = environ.get("BOT_USERNAME", "Fileshareing1bot") # without @
 PORT = environ.get("PORT", "8080")
 
 # Clone Info :-
-CLONE_MODE = bool(environ.get('CLONE_MODE', False)) # Set True or False
+CLONE_MODE = bool(environ.get('CLONE_MODE', True)) # Set True or False
 
 # If Clone Mode Is True Then Fill All Required Variable, If False Then Don't Fill.
 CLONE_DB_URI = environ.get("CLONE_DB_URI", "mongodb+srv://user1:abhinai.2244@cluster0.7oaqx.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0")
