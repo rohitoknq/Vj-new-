@@ -20,7 +20,7 @@ def is_enabled(value, default):
 # Bot Information
 API_ID = int(environ.get("API_ID", "29483517"))
 API_HASH = environ.get("API_HASH", "e35a05d338376cbcd8162f810aed878d")
-BOT_TOKEN = environ.get("BOT_TOKEN", "7419373030:AAEacMkSxD6isx53Lt7BJ5jKBbl8HLhCiNM")
+BOT_TOKEN = environ.get("BOT_TOKEN", "7419373030:AAFPg6MwWMrF0aW2anbkJpc-G7JX8acM5e0")
 PICS = (environ.get('PICS', 'https://ibb.co/gM8LxSzs')).split() # Bot Start Picture
 ADMINS = [int(admin) if id_pattern.search(admin) else admin for admin in environ.get('ADMINS', '5756495153').split()]
 BOT_USERNAME = environ.get("BOT_USERNAME", "Fileshareing1bot") # without @
